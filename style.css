@@ -1,0 +1,47 @@
+*{
+    margin: 0;  padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    font-size: 16px;
+    background: #191919;
+	color: #000;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{ width: 600px;   text-align: center; }
+
+.container h1{
+    color: #fff;
+	font-size: 50px;
+    margin-block-end: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container .convert{
+    padding: 12px 20px;
+    background: #0ea4da;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.convert:hover{   transform: scale(1.1);  font-weight: bold;  }
+
+.container .textarea{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
